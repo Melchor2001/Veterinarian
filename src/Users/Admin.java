@@ -50,6 +50,7 @@ public class Admin extends javax.swing.JFrame {
         jPanel9 = new javax.swing.JPanel();
         jPanel10 = new javax.swing.JPanel();
         jLabel16 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
         jLabel28 = new javax.swing.JLabel();
         jPanel11 = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
@@ -66,9 +67,13 @@ public class Admin extends javax.swing.JFrame {
         jPanel10.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel16.setFont(new java.awt.Font("Berlin Sans FB", 1, 24)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(51, 255, 255));
         jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel16.setText("Veterinarian Admin Dashboard");
         jPanel10.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 610, 40));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/asdfasdfwefaervebqerger.png"))); // NOI18N
+        jPanel10.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 670, 60));
 
         jLabel28.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
         jLabel28.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -82,7 +87,7 @@ public class Admin extends javax.swing.JFrame {
 
         jPanel9.add(jPanel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 670, 60));
 
-        jPanel11.setBackground(new java.awt.Color(255, 51, 51));
+        jPanel11.setBackground(new java.awt.Color(0, 153, 255));
         jPanel11.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel11.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -177,6 +182,7 @@ public class Admin extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel28;
     private javax.swing.JPanel jPanel10;

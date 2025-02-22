@@ -65,7 +65,9 @@ public class Registration extends javax.swing.JFrame {
         jPanel10 = new javax.swing.JPanel();
         jLabel16 = new javax.swing.JLabel();
         jLabel28 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
         jPanel11 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
         jLabel23 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         jLabel30 = new javax.swing.JLabel();
@@ -90,14 +92,15 @@ public class Registration extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel9.setBackground(new java.awt.Color(255, 153, 153));
+        jPanel9.setBackground(new java.awt.Color(51, 153, 255));
         jPanel9.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel10.setBackground(new java.awt.Color(153, 0, 51));
-        jPanel10.setBorder(javax.swing.BorderFactory.createMatteBorder(3, 3, 3, 3, new java.awt.Color(0, 51, 102)));
+        jPanel10.setBackground(new java.awt.Color(255, 0, 0));
+        jPanel10.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel10.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel16.setFont(new java.awt.Font("Berlin Sans FB", 1, 24)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(51, 255, 255));
         jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel16.setText("Veterinarian Registration");
         jPanel10.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 610, 40));
@@ -112,11 +115,19 @@ public class Registration extends javax.swing.JFrame {
         });
         jPanel10.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 0, 40, 40));
 
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/asdfasdfwefaervebqerger.png"))); // NOI18N
+        jPanel10.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 60));
+
         jPanel9.add(jPanel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 670, 60));
 
         jPanel11.setBackground(new java.awt.Color(255, 51, 51));
         jPanel11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel11.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/gwapovgfyr.png"))); // NOI18N
+        jPanel11.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-60, 0, 260, 320));
+
         jPanel9.add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 110, 320));
 
         jLabel23.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
@@ -124,6 +135,7 @@ public class Registration extends javax.swing.JFrame {
         jLabel23.setText("Contact #:");
         jPanel9.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 330, 90, -1));
 
+        jLabel12.setBackground(new java.awt.Color(51, 51, 255));
         jLabel12.setFont(new java.awt.Font("Berlin Sans FB", 1, 24)); // NOI18N
         jLabel12.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel12.setText("Registration Page");
@@ -203,7 +215,7 @@ public class Registration extends javax.swing.JFrame {
                 BackActionPerformed(evt);
             }
         });
-        jPanel9.add(Back, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 250, 80, -1));
+        jPanel9.add(Back, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 250, 80, -1));
 
         jButton5.setBackground(new java.awt.Color(0, 255, 255));
         jButton5.setText("Register");
@@ -344,8 +356,10 @@ public class Registration extends javax.swing.JFrame {
     private javax.swing.JTextField fname;
     private javax.swing.JComboBox<String> gender;
     private javax.swing.JButton jButton5;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel28;
